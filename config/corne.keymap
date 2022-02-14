@@ -34,8 +34,8 @@
                         bindings = <
    &kp TAB      &trans         &kp N1       &kp N2    &kp N3    &trans   &trans         &trans          &trans           &trans         &trans         &kp BSPC
    &kp BSPC     &trans         &kp N4       &kp N5    &kp N6    &trans   &trans         &kp LEFT        &kp UP           &kp RIGHT      &trans         &trans
-   &LM LCTL 2    &trans         &kp N7       &kp N8    &kp N9    &kp N0    &trans        &trans          &trans           &trans         &trans         &trans
-                        &trans     &kp LGUI   &LT 1 SPACE     &kp LSHIFT  &trans   &kp RALT
+   &kp CTRL    &trans         &kp N7       &kp N8    &kp N9    &kp N0    &trans        &trans          &trans           &trans         &trans         &trans
+                        &trans     &kp LGUI   &kp SPACE     &kp LSHIFT  &trans   &kp RALT
                         >;
                 };
 
