@@ -22,7 +22,7 @@
    &kp TAB  &kp Q &kp W &kp F &kp P &kp G       &kp J       &kp L  &kp U     &kp Y   &kp SEMI  &kp ESC
    &kp BKSP &kp A &kp R &kp S &kp T &kp D       &kp H       &kp N  &kp E     &kp I   &kp O     &kp SQT
    &kp CTRL &kp Z &kp X &kp C &kp V &kp B       &kp N       &kp M  &kp COMMA &kp DOT &kp FSLH  &kp ENT
-                  &lower_layer &kp LGUI &kp SPACE      &kp LSHIFT  &raise_layer  &kp RALT
+                  &mo lower_layer &kp LGUI &kp SPACE      &kp LSHIFT  &mo raise_layer  &kp RALT
                         >;
                 };
                 lower_layer {
