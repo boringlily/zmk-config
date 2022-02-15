@@ -53,18 +53,4 @@
                         >;
                 };
         };
-                config_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-    &bt BT_SEL 1 &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
-    &trans &trans &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
-    &trans &trans &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
-                                &trans         &trans          &trans   &trans &trans &trans     
-                        >;
-                };
-        };
 };
