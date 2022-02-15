@@ -46,9 +46,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &bt BT_SEL 1        &bt BT_SEL 2    &bt BT_SEL 3           &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
-    &trans              &trans          &kp LC(LEFT)           &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
-    &trans              &trans          &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &bt BT1        &bt BT2    &bt BT3           &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &trans         &trans     &kp LC(LEFT)           &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
+    &trans         &trans     &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
                                 &trans         &trans          &trans   &trans &trans &trans     
                         >;
                 };
