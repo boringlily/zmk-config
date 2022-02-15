@@ -46,7 +46,7 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &trans &trans &trans &kp lc(UP)     &trans &trans   &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans &trans     &trans &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &trans &trans         &trans &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &trans &trans         &trans &trans   &trans &trans &trans &trans &trans &trans
                          &trans         &trans &trans   &trans &trans &trans     
