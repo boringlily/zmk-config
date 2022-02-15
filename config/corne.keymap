@@ -46,7 +46,21 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &trans &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &bt &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &trans &trans &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
+                                &trans         &trans          &trans   &trans &trans &trans     
+                        >;
+                };
+        };
+                config_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+    &bt &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
                                 &trans         &trans          &trans   &trans &trans &trans     
