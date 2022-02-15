@@ -46,7 +46,7 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &bt &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &bt BT_SEL 1 &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
                                 &trans         &trans          &trans   &trans &trans &trans     
@@ -60,7 +60,7 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &bt &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
+    &bt BT_SEL 1 &trans &trans        &kp LC(UP)     &trans          &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(RIGHT)   &trans   &trans &trans &trans &trans &trans &trans
     &trans &trans &trans        &trans         &trans          &trans   &trans &trans &trans &trans &trans &trans
                                 &trans         &trans          &trans   &trans &trans &trans     
